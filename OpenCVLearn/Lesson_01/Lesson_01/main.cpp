@@ -28,9 +28,11 @@
 #include "Learn_6_1.hpp"
 #include "Learn_6_2.hpp"
 #include "Learn_6_3.hpp"
+#include "Learn_6_4.hpp"
+#include "Learn_6_5.hpp"
 
 int main(int argc, const char * argv[]) {
-    Learn_6_3::learn();
+    Learn_6_5::learn();
     
     return 0;
 }
