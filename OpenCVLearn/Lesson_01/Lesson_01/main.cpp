@@ -31,9 +31,9 @@
 #include "Learn_6_4.hpp"
 #include "Learn_6_5.hpp"
 #include "Learn_6_6.hpp"
-
+#include "Learn_6_7.hpp"
 int main(int argc, const char * argv[]) {
-    Learn_6_6::learn();
+    Learn_6_7::learn();
     
     return 0;
 }
