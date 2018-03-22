@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4E0E49371FFE4AB4004D2B32 /* Learn_5_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E49351FFE4AB4004D2B32 /* Learn_5_5.cpp */; };
+		4E19DFDD2063E9CB001DEB54 /* Learn_7_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E19DFDB2063E9CB001DEB54 /* Learn_7_2.cpp */; };
+		4E19DFE12063EDE7001DEB54 /* Learn_facedetect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E19DFDF2063EDE7001DEB54 /* Learn_facedetect.cpp */; };
 		4E1F34C91FF1239500E81301 /* Learn_4_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F34C71FF1239500E81301 /* Learn_4_1.cpp */; };
 		4E25164F1FE7E47D00F22CE9 /* Learn_3_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E25164D1FE7E47D00F22CE9 /* Learn_3_2.cpp */; };
 		4E3252931FF3C11F006BA1DA /* Learn_4_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E3252911FF3C11F006BA1DA /* Learn_4_2.cpp */; };
@@ -94,6 +96,10 @@
 /* Begin PBXFileReference section */
 		4E0E49351FFE4AB4004D2B32 /* Learn_5_5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Learn_5_5.cpp; sourceTree = "<group>"; };
 		4E0E49361FFE4AB4004D2B32 /* Learn_5_5.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Learn_5_5.hpp; sourceTree = "<group>"; };
+		4E19DFDB2063E9CB001DEB54 /* Learn_7_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Learn_7_2.cpp; sourceTree = "<group>"; };
+		4E19DFDC2063E9CB001DEB54 /* Learn_7_2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Learn_7_2.hpp; sourceTree = "<group>"; };
+		4E19DFDF2063EDE7001DEB54 /* Learn_facedetect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Learn_facedetect.cpp; sourceTree = "<group>"; };
+		4E19DFE02063EDE7001DEB54 /* Learn_facedetect.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Learn_facedetect.hpp; sourceTree = "<group>"; };
 		4E1F34C71FF1239500E81301 /* Learn_4_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Learn_4_1.cpp; sourceTree = "<group>"; };
 		4E1F34C81FF1239500E81301 /* Learn_4_1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Learn_4_1.hpp; sourceTree = "<group>"; };
 		4E25164D1FE7E47D00F22CE9 /* Learn_3_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Learn_3_2.cpp; sourceTree = "<group>"; };
@@ -245,6 +251,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E19DFDE2063EDCC001DEB54 /* FaceDetect */ = {
+			isa = PBXGroup;
+			children = (
+				4E19DFDF2063EDE7001DEB54 /* Learn_facedetect.cpp */,
+				4E19DFE02063EDE7001DEB54 /* Learn_facedetect.hpp */,
+			);
+			path = FaceDetect;
+			sourceTree = "<group>";
+		};
 		4E1F34C61FF1237900E81301 /* Chapter4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,6 +350,8 @@
 			children = (
 				4E770142202B1E8000072000 /* Learn_7_1.cpp */,
 				4E770143202B1E8000072000 /* Learn_7_1.hpp */,
+				4E19DFDB2063E9CB001DEB54 /* Learn_7_2.cpp */,
+				4E19DFDC2063E9CB001DEB54 /* Learn_7_2.hpp */,
 			);
 			path = Chapter7;
 			sourceTree = "<group>";
@@ -359,6 +376,7 @@
 		4EFE7E8B1FDEA7F1001D2B4E /* Lesson_01 */ = {
 			isa = PBXGroup;
 			children = (
+				4E19DFDE2063EDCC001DEB54 /* FaceDetect */,
 				4E770141202B1E6500072000 /* Chapter7 */,
 				4E740F222010B8F400D50167 /* Chapter6 */,
 				4E4575451FF512B300B30D94 /* Chapter5 */,
@@ -482,8 +500,10 @@
 				4E4E57E61FE1588500D76E7E /* Learn_3.cpp in Sources */,
 				4E4E57E71FE1588500D76E7E /* Learn_1.cpp in Sources */,
 				4EBAC0BB201F4AD30086D54A /* Learn_6_2.cpp in Sources */,
+				4E19DFE12063EDE7001DEB54 /* Learn_facedetect.cpp in Sources */,
 				4EFE7E8D1FDEA7F1001D2B4E /* main.cpp in Sources */,
 				4E3252931FF3C11F006BA1DA /* Learn_4_2.cpp in Sources */,
+				4E19DFDD2063E9CB001DEB54 /* Learn_7_2.cpp in Sources */,
 				4E777FB220063E7000BFF938 /* Learn_5_6.cpp in Sources */,
 				4ECC466F200CC6FE00253A0A /* Learn_5_7.cpp in Sources */,
 				4EAA42E120209EFC002DBE63 /* Learn_6_5.cpp in Sources */,
