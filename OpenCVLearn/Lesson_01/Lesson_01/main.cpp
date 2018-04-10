@@ -36,10 +36,12 @@
 #include "Learn_7_2.hpp"
 #include "Learn_7_3.hpp"
 #include "Learn_7_4.hpp"
+#include "Learn_7_5.hpp"
+#include "Learn_7_6.hpp"
 
 #include "Learn_facedetect.hpp"
 int main(int argc, const char * argv[]) {
-    Learn_7_4::learn();
+    Learn_7_6::learn();
     
     return 0;
 }

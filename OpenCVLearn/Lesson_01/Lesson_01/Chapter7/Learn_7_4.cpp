@@ -42,6 +42,7 @@ void Learn_7_4::learn() {
     waitKey(0);
     imshow("效果图2", dst);
     waitKey(0);
+    
 
     
 }
