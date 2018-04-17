@@ -39,10 +39,11 @@
 #include "Learn_7_5.hpp"
 #include "Learn_7_6.hpp"
 #include "Learn_7_7.hpp"
+#include "Learn_7_8.hpp"
 
 #include "Learn_facedetect.hpp"
 int main(int argc, const char * argv[]) {
-    Learn_7_7::learn();
+    Learn_7_8::learn();
     
     return 0;
 }
